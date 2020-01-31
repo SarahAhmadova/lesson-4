@@ -1,0 +1,115 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 15px;
+}
+
+hr {
+    font-weight: bold;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.logo {
+    padding: 20%;
+}
+
+#menu {
+    position: fixed;
+}
+
+#home {
+    background-image: url("bg.jpg");
+    height: 630px;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#about {
+    padding-left: 30px ;
+    text-align: left;
+    height: 630px;
+    background-color: rgb(243, 243, 243);
+}
+#about>div>ul{
+    padding-inline-start: 0px  ;
+}
+#about>div>ul>li>i{
+    color:  rgb(253, 83, 61);
+}
+button{
+    border:none;
+    background-color: rgb(253, 83, 61);
+    color: white;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+}
+
+#services {
+    height: 630px;
+}
+
+#port {
+    height: 630px;
+}
+
+#news {
+    height: 630px;
+}
+
+#contact {
+    height: 630px;
+}
+
+.prfl-container {
+    padding-top: 15%;
+}
+
+#prfl {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 50%;
+    border: 10px solid rgb(103, 110, 126);
+    height: 200px;
+    width: 200px;
+}
+
+.prfl-name {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.down {
+    width: 80px;
+    height: 80px;
+}
+
+#back {
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    bottom: 10px;
+    right: 10px;
+
+}
+.social-ntw{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.social-ntw>a>i{
+    height: 10px;
+    width: 10px;
+    padding: 10px;
+}
